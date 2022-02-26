@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/add_to_list_Layout"
-    tools:context=".activities.AddToListActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.AddToListFragment">
 
+    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/add_to_list_activity_tvGenderTitle"
+        android:id="@+id/add_to_list_fragment_tvGenderTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="320dp"
         android:layout_marginBottom="550dp"
         android:inputType="none"
-        android:text="@string/add_to_list_activity_tvGenderTitleName"
+        android:text="@string/add_to_list_fragment_tvGenderTitleName"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,59 +22,59 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/add_to_list_activity_tvStatusTitle"
+        android:id="@+id/add_to_list_fragment_tvStatusTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="280dp"
         android:layout_marginEnd="300dp"
         android:inputType="none"
-        android:text="@string/add_to_list_activity_tvStatusTitleName"
+        android:text="@string/add_to_list_fragment_tvStatusTitleName"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/add_to_list_activity_tvGenderTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/add_to_list_fragment_tvGenderTitle" />
 
     <Button
-        android:id="@+id/add_to_list_activity_btnAdd"
+        android:id="@+id/add_to_list_fragment_btnAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/add_to_list_btnAddName"
+        android:text="@string/add_to_list_fragment_btnAddName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/add_to_list_activity_tvStatusTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/add_to_list_fragment_tvStatusTitle" />
 
     <TextView
-        android:id="@+id/add_to_list_activity_tVNameTitle"
+        android:id="@+id/add_to_list_fragment_tVNameTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="324dp"
         android:layout_marginBottom="450dp"
         android:inputType="none"
-        android:text="@string/add_to_list_activity_tVNameTitleName"
+        android:text="@string/add_to_list_fragment_tVNameTitleName"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/add_to_list_activity_tvGenderTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/add_to_list_fragment_tvGenderTitle" />
 
     <TextView
-        android:id="@+id/add_to_list_activity_tVDescriptionTitle"
+        android:id="@+id/add_to_list_fragment_tVDescriptionTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="280dp"
         android:layout_marginBottom="350dp"
         android:inputType="none"
-        android:text="@string/add_to_list_activity_tVDescriptionTitleName"
+        android:text="@string/add_to_list_fragment_tVDescriptionTitleName"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/add_to_list_activity_tvName" />
+        app:layout_constraintTop_toBottomOf="@+id/add_to_list_fragment_tvName" />
 
     <EditText
-        android:id="@+id/add_to_list_activity_tvName"
+        android:id="@+id/add_to_list_fragment_tvName"
         android:layout_width="364dp"
         android:layout_height="39dp"
         android:layout_marginBottom="400dp"
@@ -83,23 +83,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/add_to_list_activity_tVNameTitle"
+        app:layout_constraintTop_toBottomOf="@+id/add_to_list_fragment_tVNameTitle"
         android:autofillHints="" />
 
     <EditText
-        android:id="@+id/add_to_list_activity_tvDescription"
+        android:id="@+id/add_to_list_fragment_tvDescription"
         android:layout_width="364dp"
         android:layout_height="132dp"
         android:layout_marginBottom="20dp"
         android:autofillHints=""
         android:inputType="textMultiLine"
-        app:layout_constraintBottom_toTopOf="@+id/add_to_list_activity_tvStatusTitle"
+        app:layout_constraintBottom_toTopOf="@+id/add_to_list_fragment_tvStatusTitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/add_to_list_activity_tVDescriptionTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/add_to_list_fragment_tVDescriptionTitle" />
 
     <Spinner
-        android:id="@+id/add_to_list_activity_sGender"
+        android:id="@+id/add_to_list_fragment_sGender"
         android:layout_width="109dp"
         android:layout_height="82dp"
         android:layout_marginBottom="540dp"
@@ -109,7 +109,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/add_to_list_activity_sStatus"
+        android:id="@+id/add_to_list_fragment_sStatus"
         android:layout_width="109dp"
         android:layout_height="82dp"
         android:layout_marginEnd="100dp"
@@ -117,7 +117,7 @@
         android:spinnerMode="dialog"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/add_to_list_activity_tvStatusTitle"
-        app:layout_constraintTop_toBottomOf="@+id/add_to_list_activity_tvDescription" />
+        app:layout_constraintStart_toEndOf="@+id/add_to_list_fragment_tvStatusTitle"
+        app:layout_constraintTop_toBottomOf="@+id/add_to_list_fragment_tvDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

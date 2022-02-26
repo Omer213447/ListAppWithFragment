@@ -13,7 +13,7 @@ public class ListsModel {
             add(R.drawable.maleicon);
         }
     };
-    public static ArrayList<Integer> ticks = new ArrayList<Integer>(){
+    public static ArrayList<Integer> statuses = new ArrayList<Integer>(){
         {
             add(R.drawable.tick);
             add(R.drawable.tick);
@@ -29,7 +29,7 @@ public class ListsModel {
             add("Ahmet Terzi");
         }
     };
-    public static ArrayList<String> infos = new ArrayList<String>(){
+    public static ArrayList<String> descriptions = new ArrayList<String>(){
         {
             add("4. Sınıf Bilgisayar Mühendisliği Öğrencisi");
             add("3. Sınıf Sivil Mühendisliği Öğrencisi");
@@ -39,14 +39,14 @@ public class ListsModel {
     };
     public static void add(Integer imageGender, Integer imageTicks, String name, String info){
         genders.add(imageGender);
-        ticks.add(imageTicks);
+        statuses.add(imageTicks);
         names.add(name);
-        infos.add(info);
+        descriptions.add(info);
     }
     public static void remove(int position){
         genders.remove(position);
-        ticks.remove(position);
+        statuses.remove(position);
         names.remove(position);
-        infos.remove(position);
+        descriptions.remove(position);
     }
 }

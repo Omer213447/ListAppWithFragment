@@ -20,8 +20,6 @@
         </activity>
         <activity android:name=".activities.MainActivity">
         </activity>
-        <activity android:name=".activities.AddToListActivity" />
-        <activity android:name=".activities.ShowInfoActivity" />
     </application>
 
 </manifest>

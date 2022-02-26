@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">listappwithfragment</string>
-    <string name="show_activity_btnSubmit_name">Delete</string>
-    <string name="show_info_activity_tvStatus_name">Status :</string>
-    <string name="show_info_activity_errorMessage">There is an Error!</string>
-    <string name="add_to_list_activity_tvGenderTitleName">Gender</string>
-    <string name="add_to_list_activity_tvStatusTitleName">Status</string>
-    <string name="add_to_list_btnAddName">Add</string>
-    <string name="add_to_list_activity_tVNameTitleName">Name</string>
-    <string name="add_to_list_activity_tVDescriptionTitleName">Description</string>
+    <string name="show_info_fragment_btnSubmit_name">Delete</string>
+    <string name="show_info_fragment_tvStatus_name">Status :</string>
+    <string name="show_info_fragment_errorMessage">There is an Error!</string>
+    <string name="add_to_list_fragment_tvGenderTitleName">Gender</string>
+    <string name="add_to_list_fragment_tvStatusTitleName">Status</string>
+    <string name="add_to_list_fragment_btnAddName">Add</string>
+    <string name="add_to_list_fragment_tVNameTitleName">Name</string>
+    <string name="add_to_list_fragment_tVDescriptionTitleName">Description</string>
     <string name="text_fields_empty_message">One or more text fields are empty!</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
